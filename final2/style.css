@@ -1,0 +1,65 @@
+body {
+	background-color: rgb(25°,250,250);
+	color: rdg(10,10,10);
+	font-family: "open sens", sans-serif;
+	text-align: center;
+}
+
+
+p{
+	font-size: 14px;
+	font-family: "open sens", sans-serif;
+	text-align: center;
+}
+
+
+.footer {
+	font-size:30px;
+	background-color: rgba(0, 0, 0, 0.7);
+	
+}
+
+.wrapper {
+	height: 50px;
+}
+
+/* How to override the default Bootstrap colors */
+
+.btn-primary {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.btn-primary:hover {
+  background-color: #16a085;
+  border-color: #16a085;
+}
+
+/* How to override the default Bootstrap navbar */
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus,
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer ul {
+	margin-bottom: 0px; margin-top: 100px;
+}
+
